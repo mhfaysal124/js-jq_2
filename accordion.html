@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Icon-->
+    <link rel="icon" href="img/logo_MH.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>js / jq</title>
+  </head>
+  <body>
+
+
+    <!-- Header start -->
+    <nav class="c_navbar navbar navbar-expand-md navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logo.png" class="w-25" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#id_navbar" aria-controls="id_navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="id_navbar">
+          <ul class="navbar-nav ms-auto mb-2 fw-bold mb-lg-0">
+            <li class="nav-item px-2">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="accordion.html">Accordion+4</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="tooltip.html">Tooltip+4</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="draggable.html">Draggable+4</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="efects.html">Efects+4</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="documantation.html">Documantation</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <button class="btn btn-outline-warning ms-3 fw-bold" type="button" onclick="darkMood()">Dark Mood</button>
+            <button class="btn btn-outline-warning ms-3 fw-bold" type="button" onclick="lightMood()">Red Mood</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--Header End-->
+
+
+    <!-- Acordion, Autocomplete -->
+    <div class="container mb-5">
+      <h2>__ Jquery UI - (Accordion, Autocomplete, Date Picker, Dialog, Alert).<span class="text-info">Complete</span></h2></h2>
+      <div class="row">
+        <div class="col-md-12 d-flex justify-content-center">
+          <h1 class="border-bottom border-4 border-warning text-warning mb-3 bg-dark py-1 px-5">Accordion & Autocomplete.</h1>
+        </div>
+
+        <!-- Accordion -->
+        <div class="col-md-6">
+          <h2 class="bg-warning text-dark px-5 p-2 text-center">1. Accordion</h2>
+          <!-- Accordion -->
+          <div id="accordion">
+            <h4 class="bg-dark text-warning fw-bold">Accordion item 1</h3>
+            <div class="bg-secondary text-white">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti explicabo quis eligendi autem laborum eaque nisi, animi commodi, ullam corrupti dolor aut enim. Aperiam, aut. Cumque commodi aut nostrum placeat?</p>
+            </div>
+            <h3 class="bg-dark text-warning fw-bold">Accordion item 2</h3>
+            <div class="bg-secondary text-white">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti explicabo quis eligendi autem laborum eaque nisi, animi commodi, ullam corrupti dolor aut enim. Aperiam, aut. Cumque commodi aut nostrum placeat?</p>
+            </div>
+            <h3 class="bg-dark text-warning fw-bold">Accordion item 3</h3>
+            <div class="bg-secondary text-white">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti explicabo quis eligendi autem laborum eaque nisi, animi commodi, ullam corrupti dolor aut enim. Aperiam, aut. Cumque commodi aut nostrum placeat?</p>
+            </div>
+            <h3 class="bg-dark text-warning fw-bold">Accordion item 4</h3>
+            <div class="bg-secondary text-white">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti explicabo quis eligendi autem laborum eaque nisi, animi commodi, ullam corrupti dolor aut enim. Aperiam, aut. Cumque commodi aut nostrum placeat?</p>
+            </div>
+            <h3 class="bg-dark text-warning fw-bold">Accordion item 5</h3>
+            <div class="bg-secondary text-white">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti explicabo quis eligendi autem laborum eaque nisi, animi commodi, ullam corrupti dolor aut enim. Aperiam, aut. Cumque commodi aut nostrum placeat?</p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Autocomplete -->
+        <div class="col-md-6">
+          <h2 class="bg-warning text-dark px-5 p-2 text-center">2. Autocomplete</h2>
+          <!-- Autocomplete -->
+          <div id="accordion1">
+            <h3 class="bg-dark text-warning fw-bold">1. Default functionality</h3>
+            <div class="bg-secondary text-white">
+              
+              <div class="ui-widget">
+                <h3>Write single Values</h3>
+                <label for="tags" class="pb-2">Write your name in this box.</label><br>
+                <label for="tags">Name: </label>
+                <input id="tags">
+              </div>
+              
+            </div>
+            <h3 class="bg-dark text-warning fw-bold">2. Maltiple Values</h3>
+            <div class="bg-secondary text-white">
+              
+              <div class="ui-widget">
+                <h3>Write Multiple Values</h3>
+                <label for="tags2" class="fw-bold">Tag programming languages: </label>
+                <input id="tags2" class="bg-dark text-white" size="50">
+              </div>
+
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- DataPikar, Dialog, SelectMenu -->
+    <div class="container mb-5">
+      <h2>__ Jquery DatePicker, Dialog & SelectMenu.</h2>
+      <div class="row">
+
+        <div class="col-md-12 d-flex justify-content-center">
+          <h1 class="border-bottom border-4 border-warning text-warning mb-3 bg-dark py-1 px-5">DatePicker, Dialog & SelectMenu</h1>
+        </div>
+
+        <!-- DataPicker -->
+        <div class="col-md-4">
+          <h2 class="bg-warning text-dark px-4 p-2 text-center">DataPicker</h2>
+          <div class="bg-secondary p-3">
+            
+            <div class="border border-4 border-dark mb-4">
+              <div class="bg-dark text-center p-1 mb-2 fw-bold">Default functionality</div>
+              <p class="fw-bold ps-2">Date: <input type="text" id="datepickerOne" class="fw-bold"></p>
+            </div>
+
+            <div class="border border-4 border-dark mb-4">
+              <div class="bg-dark text-center p-1 mb-2 fw-bold">Animation</div>
+              <p class="fw-bold ps-2">Date: <input type="text" id="datepickerTwo" class="fw-bold" size="25"></p>
+             
+            <p class="fw-bold ps-2">Animations:<br>
+              <select id="animOne">
+                <option value="show">Show (default)</option>
+                <option value="slideDown">Slide down</option>
+                <option value="fadeIn">Fade in</option>
+                <option value="blind">Blind (UI Effect)</option>
+                <option value="bounce">Bounce (UI Effect)</option>
+                <option value="clip">Clip (UI Effect)</option>
+                <option value="drop">Drop (UI Effect)</option>
+                <option value="fold">Fold (UI Effect)</option>
+                <option value="slide">Slide (UI Effect)</option>
+                <option value>None</option>
+              </select>
+            </p>
+          </div>
+
+            <div class="border border-4 border-dark mb-4">
+              <div class="bg-dark text-center p-1 mb-2 fw-bold">Populate alternate field</div>
+              <p class="fw-bold ps-2">Date: <input type="text" id="datepickerThree" class="fw-bold">&#xA0;<input type="text" id="alternateOne" size="25" class="fw-bold mt-1 text-center"></p>
+            </div>
+
+          </div>
+        </div>
+
+
+        <!-- Dialog -->
+        <div class="col-md-4">
+          <h2 class="bg-warning text-dark px-4 p-2 text-center">Dialog</h2>
+          <div class="bg-secondary p-3">
+
+            <!-- Dialog 2-->
+            <div class="border border-4 border-dark mb-4">
+              <div class="bg-dark text-center p-1 mb-2 fw-bold">Model Confirmation</div>
+              <div class="p-2 fw-bold">Reload the site to see the Model Confirmation <span class="text-warning">(Empty the recycle bin)</span> Dialog box.</div>
+              <div id="dialog-confirm" title="Empty the recycle bin?">
+                <p class="fw-bold"><span class="ui-icon ui-icon-alert" style="float:left; margin:12px 12px 20px 0;"></span>These items will be permanently deleted and cannot be recovered. Are you sure? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, quibusdam dolorem enim explicabo hic ea. Odio quis delectus alias, obcaecati distinctio nihil odit animi quibusdam assumenda deserunt earum temporibus est?</p>
+              </div>
+            </div>
+            
+            <!-- Dialog 1-->
+            <div class="border border-4 border-dark mb-4"">
+              <div class="bg-dark text-center p-1 mb-2 fw-bold">Default functionality</div>
+              <div class="p-2 fw-bold">Reload the site to see the Default functionality <span class="text-warning">(defiault dialog)</span> Dialog box.</div>
+              <div id="dialogOne" title="Basic dialog">
+                <p class="fw-bold">This is the <span class="text-warning">default dialog</span> which is useful for displaying information. The dialog window can be moved, resized and closed with the &apos;x&apos; icon.</p>
+              </div>
+            </div>
+            
+            <!-- Dialog 3-->
+            <div class="border border-4 border-dark mb-4"">
+              <div class="bg-dark text-center p-1 mb-2 fw-bold">Animation</div>
+              <div class="p-2 fw-bold">Click the button to see the Andimation <span class="text-warning">( Animation )</span> Dialog box.</div>
+              <div id="dialogTwo" title="Animation dialog">
+                <p>This is an animated dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the &apos;x&apos; icon.</p>
+              </div>               
+              <button id="openerOne" class="btn btn-dark ms-5 m-2">Open Dialog</button>
+            </div>
+
+          </div>
+        </div>
+        
+        <!-- Selectmenu -->
+        <div class="col-md-4">
+          <h2 class="bg-warning text-dark px-4 p-2 text-center">SelectMenu</h2>
+          <div class="bg-secondary p-3">
+            <div class="border border-4 border-dark mb-4">
+            <div class="bg-dark text-center p-1 mb-2 fw-bold">Default functionality</div>
+            
+              <div class="demo p-3"> 
+                <form action="#">               
+                  <fieldset>
+                    <label for="speed" class="fw-bold" >Select a speed</label>
+                    <select name="speed" id="selectSpeed">
+                      <option>Slower</option>
+                      <option>Slow</option>
+                      <option selected="selected">Medium</option>
+                      <option>Fast</option>
+                      <option>Faster</option>
+                    </select>
+                
+                    <label for="files" class="fw-bold" >Select a file</label>
+                    <select name="files" id="selectFiles">
+                      <optgroup label="Scripts">
+                        <option value="jquery">jQuery.js</option>
+                        <option value="jqueryui">ui.jQuery.js</option>
+                      </optgroup>
+                      <optgroup label="Other files">
+                        <option value="somefile">Some unknown file</option>
+                        <option value="someotherfile">Some other file with a very long option text</option>
+                      </optgroup>
+                    </select>
+                
+                    <label for="number" class="fw-bold" >Select a number</label>
+                    <select name="number" id="selectNumber">
+                      <option>1</option>
+                      <option selected="selected">2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                      <option>6</option>
+                      <option>7</option>
+                      <option>8</option>
+                      <option>9</option>
+                      <option>10</option>
+                      <option>11</option>
+                      <option>12</option>
+                      <option>13</option>
+                      <option>14</option>
+                      <option>15</option>
+                      <option>16</option>
+                      <option>17</option>
+                      <option>18</option>
+                      <option>19</option>
+                    </select>
+                
+                    <label for="salutation" class="fw-bold" >Select a title</label>
+                    <select name="salutation" id="selectSalutation">
+                      <option disabled selected>Please pick one</option>
+                      <option>Mr.</option>
+                      <option>Mrs.</option>
+                      <option>Dr.</option>
+                      <option>Prof.</option>
+                      <option>Other</option>
+                    </select>
+                  </fieldset>                
+                </form>                
+              </div>
+              </div>
+              
+            
+              <div class="border border-4 border-dark mb-4">
+                <div class="bg-dark text-center p-1 mb-2  fw-bold">Product Selection</div>
+                
+                <div class="demo p-2"> 
+                  <form action="#"> 
+
+                    <div id="circleOne" class="m-auto"></div>
+
+                    <fieldset class="fieldset">
+                      <label for="radius" class="fw-bold">Circle radius</label>
+                      <select name="radius" id="radiusOne">
+                        <option value="50">50px</option>
+                        <option value="100">100px</option>
+                        <option value="150" selected="selected">150px</option>
+                        <option value="200">200px</option>
+                        <option value="250">250px</option>
+                      </select>
+                   
+                      <label for="color" class="fw-bold">Circle color</label>
+                      <select name="color" id="colorOne">
+                        <option value="black">Black</option>
+                        <option value="red">Red</option>
+                        <option value="yellow" selected="selected">Yellow</option>
+                        <option value="blue">Blue</option>
+                        <option value="green">Green</option>
+                      </select>
+                    </fieldset>                   
+                  </form>                   
+                  </div>
+
+              </div>
+
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+
+
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>    
+    <script src="js/script.js"></script>
+
+
+
+  </body>
+</html>
